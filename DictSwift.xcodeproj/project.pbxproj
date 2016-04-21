@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A599AB041CC4AA59009AF37C /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A599AB031CC4AA59009AF37C /* DataSource.swift */; };
+		A599AB061CC4AA69009AF37C /* QueryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A599AB051CC4AA69009AF37C /* QueryRecord.swift */; };
 		A5D51D211CC3E02900E78817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D51D201CC3E02900E78817 /* AppDelegate.swift */; };
 		A5D51D231CC3E02900E78817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D51D221CC3E02900E78817 /* ViewController.swift */; };
 		A5D51D261CC3E02900E78817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D51D241CC3E02900E78817 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A599AB031CC4AA59009AF37C /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A599AB051CC4AA69009AF37C /* QueryRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryRecord.swift; sourceTree = "<group>"; };
 		A5D51D1D1CC3E02900E78817 /* DictSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D51D201CC3E02900E78817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D51D221CC3E02900E78817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				A5D51D201CC3E02900E78817 /* AppDelegate.swift */,
+				A599AB031CC4AA59009AF37C /* DataSource.swift */,
+				A599AB051CC4AA69009AF37C /* QueryRecord.swift */,
 				A5D51D221CC3E02900E78817 /* ViewController.swift */,
 				A5D51D241CC3E02900E78817 /* Main.storyboard */,
-				A5D51D271CC3E02900E78817 /* Assets.xcassets */,
 				A5D51D291CC3E02900E78817 /* LaunchScreen.storyboard */,
+				A5D51D271CC3E02900E78817 /* Assets.xcassets */,
 				A5D51D2C1CC3E02900E78817 /* Info.plist */,
 			);
 			path = DictSwift;
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A599AB041CC4AA59009AF37C /* DataSource.swift in Sources */,
+				A599AB061CC4AA69009AF37C /* QueryRecord.swift in Sources */,
 				A5D51D231CC3E02900E78817 /* ViewController.swift in Sources */,
 				A5D51D211CC3E02900E78817 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +294,7 @@
 				A5D51D311CC3E02900E78817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
