@@ -87,12 +87,9 @@ class ViewController: UITableViewController {
         return toolbar
     }
 
-    private func showTerm(term: String) {
-        let charSet = NSCharacterSet.URLQueryAllowedCharacterSet()
-        guard let encoded = term.stringByAddingPercentEncodingWithAllowedCharacters(charSet),
-            url = NSURL(string: "https://cn.bing.com/dict/search?q=\(encoded)") else {
-                preconditionFailure("invalid url.")
-        }
+    private func showTerm(convertible: QueryURLConvertible) {
+        guard let url = convertible.zt_queryURL else { return }
+
         let libViewController = SFSafariViewController(URL: url, entersReaderIfAvailable: true)
         presentViewController(libViewController, animated: true, completion: nil)
     }
